@@ -21,7 +21,7 @@ const text ="Lorem, ipsum dolor sit amet, consectetur adipisicing elit, sed do e
 // I want my text to be censored with this word
 const censoredWord = 'dolore';
 
-// this is an array of my censoredWord index(I set this in order to count the number of censored words)
+// this is an array of my censoredWord index(I set this in order to count the number of censored words for challeng 1)
 const indexOfCensoredWords = [];
 
 
@@ -37,9 +37,7 @@ function censoredWordFn(text,censoredWord,indexOfCensoredWords){
         }else{
             return word
         }
-        
     })
-    
     // the result
     console.log(arrayOfWords.join(' '));
 }
