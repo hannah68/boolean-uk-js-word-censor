@@ -42,10 +42,10 @@ function censoredWordFn(text,censoredWord,indexOfCensoredWords){
     console.log(arrayOfWords.join(' '));
 }
 
-// censoredWordFn(text, censoredWord,indexOfCensoredWords);
+censoredWordFn(text, censoredWord,indexOfCensoredWords);
 
 
-// // challenge1:
+// challenge1:
 const countOfChangedWord = indexOfCensoredWords.length;
 console.log(countOfChangedWord);
 
