@@ -39,10 +39,10 @@ function censoredWordFn(text,censoredWord,indexOfCensoredWords,secret){
         }
         
     })
-    
     // the result
     console.log(arrayOfWords.join(' '));
 }
+
 
 censoredWordFn(text, censoredWord,indexOfCensoredWords, secret);
 
@@ -54,7 +54,7 @@ console.log(countOfChangedWord);
 // challenge2
 const textInput = prompt('Please write your text');
 const wordCencorInput = prompt('Write a word you want to be censored');
-const replacedWordInput = prompt('What do you want to censor your word with? (choose one of the following) \n **, BEEP, xxx, !!!, etc');
+const replacedWordInput = prompt('What do you want to censor your word with?');
 
 
 function wordReplacerFn(textInput,wordCencorInput,replacedWordInput){
